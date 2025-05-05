@@ -1,0 +1,15 @@
+div#option{
+    background-image: url(/67b48b738e935a0056834fe9-ferrari-sf-25-gate-launch-big-desk.avif);
+}
+div#option h3{
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+}
+img#horse{
+    width: 60px;
+}
+h3#search{
+    display: flex;
+    justify-content: end;
+}
