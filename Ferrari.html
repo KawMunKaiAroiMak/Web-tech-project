@@ -5,14 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Official Ferrari website</title>
     <link rel="stylesheet" href="Ferrari.css">
+    <link rel="icon" href="Web-tech-project/favicon_32x32.png">
 </head>
 <body>
+<section id="first">
 <div id="option">
-    <img id="horse" src="/th.webp" alt="Ferrari">
-    <h3>RACING SPORTS CARS COLLECTIONS EXPERIENCES ABOUT US</h3>
-    <h3 id="search">SEARCH</h3>
-    <h2>FERRARI SF-25</h2>
+    <div class="navbar">
+        <div class="navbar-left">
+          <img src="img/th.webp" alt="Ferrari Logo">
+          <div class="nav-links">
+            <div><a href="#">RACING</a></div>
+            <div><a href="#">SPORTS CARS</a></div>
+            <div><a href="#">COLLECTIONS</a></div>
+            <div><a href="#">EXPERIENCES</a></div>
+            <div><a href="#">ABOUT US</a></div>
+          </div>
+        </div>
+        <div class="navbar-right">
+          SEARCH
+        </div>
+      </div>
+    <h2 id="car">FERRARI SF-25</h2>
+    <a id="r1" href="#">readmore ▶</a>
 </div>
+</section>
 <div id="Discover">
     <h3>DISCOVER</h3>
     <h3>SPORTS CARS</h3>
@@ -133,3 +149,13 @@
 </div>
 </body>
 </html>
+
+nav a{
+    color:white;
+    font-size: 20px ;
+    padding: 5px 0px;
+    display: flex;
+    gap: 2000px;
+    list-style: none;
+    margin: 0;
+}
