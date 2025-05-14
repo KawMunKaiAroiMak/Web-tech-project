@@ -2,7 +2,12 @@ body {
     margin: 0;
       font-family: Arial, sans-serif;
     }
-
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -138,3 +143,248 @@ body {
     div#ATOUGHDAY h3{
        padding-left: 300px;
     }
+    a#r2{
+      color: black;
+    }
+   
+    .section3-first {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#cm {
+  display: flex;
+  flex: 1;
+}
+
+#Collections, #Magazine {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#Collections {
+  background-image: url(img/HERO_H1_D.avif);
+}
+
+#Magazine {
+  background-image: url(img/67f650a0478fef0021d2689a-landscape3-1920x1080_collectibles_exhaust_0416-2.avif);
+}
+
+
+#Collections div:nth-child(1),
+#Magazine #mag {
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding-left: 300px;
+  padding-top: 400px;
+}
+
+#Collections div:nth-child(2){
+  font-size: 32px;
+  font-weight: bold;
+   margin-left: auto;
+  margin-right: 200px;
+  padding-left: 1px;
+}
+
+#Magazine #frco {
+  font-size: 32px;
+  font-weight: bold;
+   margin-left: auto;
+  margin-right: 130px;
+  padding-left: 1px;
+}
+
+#Collections div:nth-child(3){
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-left: 313px;
+  width: fit-content;
+  
+}
+#Magazine #dis2 a {
+    font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 300px;
+  width: fit-content;
+  
+}
+
+#Collections div:nth-child(3):hover,
+#coll{
+  padding-left: 300px;
+  padding-top: 400px;
+}
+
+.section3-second {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#dm {
+  display: flex;
+  flex: 1;
+}
+
+#Endurance, #FerrariMuseums {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#Endurance {
+  background-image: url(img/section-p3.avif);
+}
+
+#FerrariMuseums {
+  background-image: url(img/th.jpg);
+}
+
+
+#Endurance div:nth-child(1){
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding-left: 300px;
+  padding-top: 400px;
+}
+#FerrariMuseums #mus {
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding-left: 270px;
+  padding-top: 400px;
+}
+
+#Endurance div:nth-child(2){
+  font-size: 24px;
+  font-weight: bold;
+   margin-left: auto;
+  margin-right: 200px;
+  padding-left: 28px;
+  white-space: nowrap;
+}
+
+#FerrariMuseums #sup {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 130px;
+  padding-left: 250px;
+}
+
+#Endurance div:nth-child(3){
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-left: 313px;
+  width: fit-content;
+  
+}
+#FerrariMuseums #dis4 a {
+    font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 300px;
+  width: fit-content; 
+}
+.section3-third {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#em {
+  display: flex;
+  flex: 1;
+}
+
+#FerrariApproved, #FerrariMuseums {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#FerrariApproved {
+  background-image: url(img/section3-p6.webp);
+}
+
+#SportsCars {
+  background-image: url(img/section3-p5.avif);
+  background-repeat: no-repeat;
+}
+
+
+#FerrariApproved div:nth-child(1){
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding-left: 300px;
+  padding-top: 400px;
+}
+#SportsCars #spc {
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding-left: 270px;
+  padding-top: 400px;
+}
+
+#FerrariApproved div:nth-child(2){
+  font-size: 24px;
+  font-weight: bold;
+   margin-left: auto;
+  margin-right: 200px;
+  padding-left: 28px;
+  white-space: nowrap;
+}
+
+#SportsCars #past {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 130px;
+  padding-left: 250px;
+}
+
+#FerrariApproved div:nth-child(3){
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-left: 313px;
+  width: fit-content;
+  
+}
+#SportsCars #dis6 a {
+    font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 300px;
+  width: fit-content; 
+}
+    
