@@ -173,7 +173,7 @@ a:visited{
 
 
 #Collections {
-  background-image: url(img/HERO_H1_D.avif);
+  background-image: url(img/picture11.jpg);
 }
 
 #Magazine {
@@ -223,11 +223,7 @@ a:visited{
   
 }
 
-#Collections div:nth-child(3):hover,
-#coll{
-  padding-left: 300px;
-  padding-top: 400px;
-}
+
 
 .section3-second {
   display: flex;
@@ -254,11 +250,11 @@ a:visited{
 
 
 #Endurance {
-  background-image: url(img/section-p3.avif);
+  background-image: url(img/picture3.jpg);
 }
 
 #FerrariMuseums {
-  background-image: url(img/th.jpg);
+  background-image: url(img/picture4.jpg);
 }
 
 
@@ -308,6 +304,7 @@ a:visited{
   padding-left: 300px;
   width: fit-content; 
 }
+
 .section3-third {
   display: flex;
   width: 100%;
@@ -333,11 +330,11 @@ a:visited{
 
 
 #FerrariApproved {
-  background-image: url(img/Rosso_Corsa_Ferrari_F8_Spider_2048x2048.jpg);
+  background-image: url(img/picture5.jpg);
 }
 
 #SportsCars {
-  background-image: url(img/OIP\ \(1\).webp);
+  background-image: url(img/picture6.jpg);
   background-repeat: no-repeat;
 }
 
@@ -427,3 +424,83 @@ a:visited{
   background-color: black;
   color: white;
 }
+.footer-menu {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #111;
+    }
+
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-column h3 {
+      font-size: 14px;
+      margin-bottom: 20px;
+      color: white;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-column a {
+      color: #ccc;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-size: 14px;
+      transition: color 0.2s;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-column a:hover {
+      color: #fff;
+    }
+    #Social{
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+    }
+    #first-social{
+     display: flex;
+  gap: 40px;
+  justify-content: center;
+    }
+    #second-social{
+      display: flex;
+  gap: 40px;
+  justify-content: center;
+    }
+    #Details{
+      text-align: center; 
+      max-width: 900px; 
+      margin: 0 auto; 
+      font-size: 9px; 
+      color: #aaa; 
+      line-height: 1.6;
+    }
+    #Appendix{
+      background-color: #222; padding: 20px;
+      line-height: 30px;
+    }
+    .Legal{
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      gap: 25px; 
+      font-size: 12px;
+    }
+    .Responsible{
+       display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      gap: 25px; 
+      font-size: 12px;
+    }
+    #shell img{
+      cursor: pointer;
+    }
