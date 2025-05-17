@@ -108,45 +108,40 @@ a:visited{
       margin-left: 46%;
       color: white;
     }
-    div#ATOUGHDAY{
-      background-color: white;
-      width: 1510px;
-      height: 750px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      flex: 1;
-      gap: 290px;
-    }
-    img#racecar{
-      width: 1300px;
-      height: 600px;
-      margin-top: 5px;
-      margin-right: 210px;
-      margin-bottom: 50px;
-    }
-    div#ATOUGHDAY h2{
-      white-space: nowrap;
-      font-family: 'Times New Roman', Times, serif;
-      display: flex;
-      padding-left: 300px;
-    }
-    div#ATOUGHDAY h4{
-      font-weight: 200;
-      padding-left: 300px;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    div.text-container{
-      padding-bottom: 100px;
-      padding-left: 10px;
-      }
-    div#ATOUGHDAY h3{
-       padding-left: 300px;
-    }
-    a#r2{
-      color: black;
-    }
+    .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+a.read-more {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+}
    
     .section3-first {
   display: flex;
@@ -501,6 +496,11 @@ a:visited{
       gap: 25px; 
       font-size: 12px;
     }
+    #Thailand{
+      text-align:end; 
+      margin-bottom: 1px; 
+      font-weight: bold;
+    }
     #shell img{
       cursor: pointer;
     }
@@ -527,17 +527,184 @@ a:visited{
     height: 30px;
   }
   #first{
-    background-image: url(img/67b48b738e935a0056834fe9-ferrari-sf-25-gate-launch-big-desk.avif);
-   width: 400px;
+    background-image: url(img/ferrari_resized_375x800.jpg);
+    max-width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+  }
+#ATOUGHDAY {
+  .container {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 
-.navbar-left{
-  content: "MENU";
-  color: transparent;
-  
-}
-#ATOUGHDAY img {
-  width: 300px;
-  left: 20%;
+  .text-content {
+    padding: 20px;
+  }
+
+  .image img {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
   }
 }
+.section3-first {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #cm {
+    flex-direction: column;
+    
+  }
+
+  #Collections div:nth-child(1),
+  #Magazine #mag,
+  #Collections div:nth-child(3),
+  #Magazine #dis2 a {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #Collections div:nth-child(2),
+  #Magazine #frco {
+    margin-left: 20px;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  #Magazine #dis2 a {
+    padding-left: 20px;
+  }
+
+  #Collections, #Magazine {
+    padding: 20px;
+    height: 60vh;
+  }
+  .section3-second {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #dm {
+    flex-direction: column;
+    
+  }
+
+  #Endurance div:nth-child(1),
+  #FerrariMuseums #mus,
+  #Endurance div:nth-child(3),
+  #Magazine #dis2 a {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #Endurances div:nth-child(2),
+  #FerrariMuseums #sup {
+    margin-left: 20px;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  #FerrariMuseums #dis4 a {
+    padding-left: 20px;
+  }
+
+  #Endurance, #FerrariMuseums {
+    padding: 20px;
+    height: 60vh;
+  }
+  .section3-second {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #dm {
+    flex-direction: column;
+    
+  }
+
+  #Endurance div:nth-child(1),
+  #FerrariMuseums #mus,
+  #Endurance div:nth-child(3),
+  #Magazine #dis2 a {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #Endurances div:nth-child(2),
+  #FerrariMuseums #sup {
+    margin-left: 20px;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  #FerrariMuseums #dis4 a {
+    padding-left: 20px;
+  }
+
+  #Endurance, #FerrariMuseums {
+    padding: 20px;
+    height: 60vh;
+  }
+  .section3-third {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #em {
+    flex-direction: column;
+    
+  }
+
+  #FerrariApproved div:nth-child(1),
+  #SportsCars #spc,
+  #FerrariApproved div:nth-child(3),
+  #SportsCars #dis a {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #FerrariApproved div:nth-child(2),
+  #SportsCars #past {
+    margin-left: 20px;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  #SportsCars #dis6 a {
+    padding-left: 20px;
+  }
+
+  #FerrariApproved, #SportsCars {
+    padding: 20px;
+    height: 60vh;
+  }
+  #stay{
+    padding-right: 29px;
+  }
+    #first-social {
+    flex-direction: column;         
+    align-items: flex-end;          
+    justify-content: flex-start;    
+    padding-right: 20px;            
+  }
+  #second-social {
+    flex-direction: column;         
+    align-items: flex-end;          
+    justify-content: flex-start;    
+    padding-right: 20px;            
+  }
+  #Social {
+    align-items: flex-start;  
+    gap: 40px;        
+  }
+  #Thailand {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+
+  
+
