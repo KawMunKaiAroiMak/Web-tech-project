@@ -504,3 +504,40 @@ a:visited{
     #shell img{
       cursor: pointer;
     }
+
+   
+@media screen and (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .nav-left,.nav-right {
+    flex: 1;
+    text-align: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav-logo img {
+    height: 30px;
+  }
+  #first{
+    background-image: url(img/67b48b738e935a0056834fe9-ferrari-sf-25-gate-launch-big-desk.avif);
+   width: 400px;
+  }
+
+.navbar-left{
+  content: "MENU";
+  color: transparent;
+  
+}
+#ATOUGHDAY img {
+  width: 300px;
+  left: 20%;
+  }
+}
