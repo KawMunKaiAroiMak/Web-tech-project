@@ -500,7 +500,7 @@ a.read-more {
     }
 
    
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .navbar {
     justify-content: space-between;
     position: relative;
@@ -524,12 +524,31 @@ a.read-more {
   }
   #first{
     background-image: url(img/ferrari_resized_375x800.jpg);
-    max-width: 400px;
+    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
   }
   .text{
-    font-size: 23px;
+    position: absolute;
+    bottom: 10px;
+       padding-left: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  #car{
+    padding-left: 70px;
+    font-size: 40px;
+  }
+  a#r1 {
+    padding-left: 40%;
+    white-space: nowrap;
+  }
+  .video-background{
+    background-size: cover;
   }
 #ATOUGHDAY {
   .container {
@@ -538,7 +557,7 @@ a.read-more {
   }
 
   .text-content {
-    padding: ๅ0px;
+    padding: 10px;
   }
 
   .image img {
